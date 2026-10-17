@@ -6,13 +6,13 @@
   "license": "MIT",
   "homepage": "https://orbworlds.com/orb/seashell-island",
   "scripts": {
-    "start": "node orb-kit/bin/orb.mjs dev .",
-    "share": "node orb-kit/bin/orb.mjs share",
-    "test": "node test/smoke.mjs"
+    "start": "orb dev",
+    "share": "orb share",
+    "test": "orb test"
   },
   "devDependencies": {
-    "playwright": "^1.63.0",
-    "three": "^0.186.1"
+    "orb-kit": "https://orbworlds.com/kit.tgz",
+    "playwright": "^1.63.0"
   },
   "engines": {
     "node": ">=20"
