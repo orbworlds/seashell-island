@@ -1,0 +1,20 @@
+{
+  "name": "seashell-island",
+  "private": true,
+  "description": "Walk around a sunny little island and find all seven seashells.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://orbworlds.com/orb/seashell-island",
+  "scripts": {
+    "start": "node orb-kit/bin/orb.mjs dev .",
+    "share": "node orb-kit/bin/orb.mjs share",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "three": "^0.186.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
